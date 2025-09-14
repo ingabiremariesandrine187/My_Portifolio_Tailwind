@@ -45,7 +45,7 @@
      <div class="mb-12">
      <h2 class="text-xl font-semibold mb-6 text-gray-700">Let's Connect</h2>
      <div class="space-y-6">
-       //Email
+       
     <div class="flex items-center space-x-4">
     <div class="p-3 bg-gray-200 rounded-md">
         <i class="fa-solid fa-phone text-gray-700 text-xl"></i>
@@ -90,20 +90,45 @@
   <i class="fa-solid fa-file-arrow-down mr-2"></i>DownLoad Resume
  </button>
 </div>
-<div class="bg-gray-100 p-6 rounded-lg ">
+<div class="bg-white p-6 rounded-lg ">
 <h2 class="text-xl font-semibold mb-6 text-gray-700">Send me a message </h2>
-<form action="#" class="space-y-4">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<input type="text"
-       placeholder="enter your full name "
-       class="w-full border border-gray-300 rounded-md p-3 "
-/>
-<textarea placeholder="a message" rows="5" class="w-full border border-gray-300 rounded-md p-3">
-          
-</textarea>
-<button type="submit" class="w-full bg-gray-700 text-white py-3 rounded-md hover:bg-gray-600"></button>
-</div>
+<form action="#" class="space-y-4 max-w-3xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <input 
+      type="text"
+      placeholder="Your full name"
+      class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-gray-400"
+    />
+    <input 
+      type="email"
+      placeholder="your.email@example.com"
+      class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-gray-400"
+    />
+  </div>
+
+  
+  <input 
+    type="text"
+    placeholder="Subject"
+    class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-gray-400"
+  />
+
+  
+  <textarea 
+    placeholder="Write your message here..."
+    rows="6"
+    class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-gray-400"
+  ></textarea>
+
+  
+  <button 
+    type="submit" 
+    class="w-full bg-gray-700 text-white py-3 rounded-md hover:bg-gray-600 transition cursor-pointer"
+  >
+    Send Message
+  </button>
 </form>
+
 </div>
 
         </section>
